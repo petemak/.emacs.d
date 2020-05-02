@@ -65,7 +65,7 @@
 (projectile-mode +1)
 
 ;; Configure Neotree and toggle F8
-(add-to-list 'load-path "/Users/peterjoelmakumbi/.emacs.d/elpa/neotree-0.5.2/")
+(add-to-list 'load-path "~/.emacs.d/elpa/neotree-0.5.2/")
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 
